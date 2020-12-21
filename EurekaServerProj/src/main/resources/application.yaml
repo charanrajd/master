@@ -1,0 +1,10 @@
+server:
+  port: 8024
+
+eureka:  client:    register-with-eureka: false
+    service-url: 
+     defaultZone:  http://localhost:8024/eureka
+     
+spring:
+   application:
+     name: eurekaserver  
